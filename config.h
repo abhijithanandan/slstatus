@@ -74,7 +74,7 @@ static const struct arg args[] = {
     // { hostname,             "H: %s | ",              NULL },
     // { kernel_release,       "🐧 %s | ",             NULL },
     // { uptime,               "⏳ %s | ",               NULL },
-    { load_avg,             "Load: %s | ",           NULL },
+    // { load_avg,             "Load: %s | ",           NULL },
     // { entropy,              "🎲 Entropy: %s | ",    NULL },
 
     /* --- CPU --- */
@@ -86,13 +86,13 @@ static const struct arg args[] = {
     // { ram_used,             "🧠 Used: %s | ",       NULL },
     // { ram_free,             "🧠 Free: %s | ",       NULL },
     // { ram_total,            "🧠 Total: %s | ",      NULL },
-    { swap_perc,            "SWP: %s%% | ",          NULL },
+    // { swap_perc,            "SWP: %s%% | ",          NULL },
     // { swap_used,            "SWP Used: %s | ",      NULL },
     // { swap_free,            "SWP Free: %s | ",      NULL },
     // { swap_total,           "SWP Total: %s | ",     NULL },
 
     /* --- Disk --- */
-    { disk_perc,            "💾 /: %s%% | ",          "/" }, // Change "/" to your mountpoint if needed
+    // { disk_perc,            "💾 /: %s%% | ",          "/" }, // Change "/" to your mountpoint if needed
     // { disk_free,            "💾 / Free: %s | ",      "/" },
     // { disk_used,            "💾 / Used: %s | ",      "/" },
     // { disk_total,           "💾 / Total: %s | ",     "/" },
@@ -105,7 +105,7 @@ static const struct arg args[] = {
     // { ipv6,                 "IPv6: %s | ",           "eth0" },  /* Customize interface */
     // { up,                   "eth0: %s | ",           "eth0" },  /* Customize interface */
     // { wifi_essid,           "📡 %s ",               "wlan0" }, /* Customize interface */
-    { wifi_perc,            "(%s%%) | ",            "wlp6s0" }, /* Customize interface */
+    { wifi_perc,            "󰖩 (%s%%) | ",            "wlp6s0" }, /* Customize interface */
 
     /* --- Temperature --- */
     // { temp,                 "🌡️ %s°C | ",            "/sys/class/thermal/thermal_zone0/temp" }, /* Verify path */
